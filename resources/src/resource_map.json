@@ -1,15 +1,10 @@
 {
     "media": [
         {
-            "defName": "IMAGE_BACKGROUND",
-            "type": "png",
-            "file": "images/background.png"
-        },
-        {
-            "characterRegex": "[-0-9W]",
-            "defName": "FONT_LIBERATION_MONO_14",
+            "characterRegex": "[0-9:]",
+            "defName": "FONT_LIBERATION_SANS_BOLD_48",
             "type": "font",
-            "file": "fonts/LiberationMono-Regular.ttf"
+            "file": "fonts/LiberationSans-Bold.ttf"
         },
         {
             "characterRegex": "[A-Za-z0-9, ]",
@@ -18,10 +13,15 @@
             "file": "fonts/LiberationSans-Bold.ttf"
         },
         {
-            "characterRegex": "[0-9:]",
-            "defName": "FONT_LIBERATION_SANS_BOLD_48",
+            "characterRegex": "[-0-9W]",
+            "defName": "FONT_LIBERATION_MONO_14",
             "type": "font",
-            "file": "fonts/LiberationSans-Bold.ttf"
+            "file": "fonts/LiberationMono-Regular.ttf"
+        },
+        {
+            "defName": "IMAGE_BACKGROUND",
+            "type": "png",
+            "file": "images/background.png"
         }
     ],
     "friendlyVersion": "VERSION",
